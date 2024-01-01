@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1 style="margin-left: 30px; margin-top: 70px;">Choose a Design</h1>
+    <div class="row" style="margin: 20px; margin-top: 70px;">
+        <div class="col-md-6 col-sm-12">
+            <img src="/static/design1.png" alt="" srcset="" style="width: 80%;">
+            <form action="/form/design1" method="post"><button type="submit" class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button></form>
+            <!-- <a href="/form" class="btn btn-danger" style="margin-top: 10px;">Choose This Design</a> -->
+        </div>
+        <div class="col-md-6 col-sm-12 mb-5">
+            <img src="/static/design2.png" alt="" srcset="" style="width: 80%;">
+            <form action="/form/design2" method="post"><button type="submit" class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button></form>
+            <!-- <button class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button> -->
+        </div>
+        <div class="col-md-6 col-sm-12 mb-5">
+            <img src="/static/design3.png" alt="" srcset="" style="width: 80%;">
+            <form action="/form/design3" method="post"><button type="submit" class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button></form>
+            <!-- <button class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button> -->
+        </div>
+        <div class="col-md-6 col-sm-12 mb-5">
+            <img src="/static/design4.png" alt="" srcset="" style="width: 80%;">
+            <form action="/form/design4" method="post"><button type="submit" class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button></form>
+            <!-- <button class="btn btn-danger" style="margin-top: 10px;">Choose This Design</button> -->
+        </div>
+    </div>
+    
+{% endblock %}
